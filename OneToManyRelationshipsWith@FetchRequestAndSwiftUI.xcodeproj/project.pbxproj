@@ -14,6 +14,10 @@
 		950149EE23858915002F811C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950149ED23858915002F811C /* Assets.xcassets */; };
 		950149F123858915002F811C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950149F023858915002F811C /* Preview Assets.xcassets */; };
 		950149F423858915002F811C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950149F223858915002F811C /* LaunchScreen.storyboard */; };
+		950149FF23858B45002F811C /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950149FB23858B45002F811C /* Country+CoreDataClass.swift */; };
+		95014A0023858B45002F811C /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950149FC23858B45002F811C /* Country+CoreDataProperties.swift */; };
+		95014A0123858B45002F811C /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950149FD23858B45002F811C /* Candy+CoreDataClass.swift */; };
+		95014A0223858B45002F811C /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950149FE23858B45002F811C /* Candy+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		950149F023858915002F811C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		950149F323858915002F811C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		950149F523858915002F811C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950149FB23858B45002F811C /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		950149FC23858B45002F811C /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		950149FD23858B45002F811C /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		950149FE23858B45002F811C /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 		950149E323858914002F811C /* OneToManyRelationshipsWith@FetchRequestAndSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				950149FB23858B45002F811C /* Country+CoreDataClass.swift */,
+				950149FC23858B45002F811C /* Country+CoreDataProperties.swift */,
+				950149FD23858B45002F811C /* Candy+CoreDataClass.swift */,
+				950149FE23858B45002F811C /* Candy+CoreDataProperties.swift */,
 				950149E423858914002F811C /* AppDelegate.swift */,
 				950149E623858914002F811C /* SceneDelegate.swift */,
 				950149EB23858914002F811C /* ContentView.swift */,
@@ -151,8 +163,12 @@
 			files = (
 				950149EA23858914002F811C /* OneToManyRelationshipsWith_FetchRequestAndSwiftUI.xcdatamodeld in Sources */,
 				950149E523858914002F811C /* AppDelegate.swift in Sources */,
+				95014A0023858B45002F811C /* Country+CoreDataProperties.swift in Sources */,
+				95014A0223858B45002F811C /* Candy+CoreDataProperties.swift in Sources */,
 				950149EC23858914002F811C /* ContentView.swift in Sources */,
+				950149FF23858B45002F811C /* Country+CoreDataClass.swift in Sources */,
 				950149E723858914002F811C /* SceneDelegate.swift in Sources */,
+				95014A0123858B45002F811C /* Candy+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
